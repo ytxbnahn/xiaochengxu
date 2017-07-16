@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <text class="userinfo-nickname">姓名: {{userInfo.name}}</text>
+    <text class="userinfo-nickname">电话: {{userInfo.phone}}</text>
+    <text class="userinfo-nickname">性别: {{userInfo.gender}}</text>
+    <text class="userinfo-nickname">出生年日: {{userInfo.old}}</text>
+    <text class="userinfo-nickname">兴趣: {{userInfo.interestIndex}}</text>
+    <text class="userinfo-nickname">职业: {{Careers}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
